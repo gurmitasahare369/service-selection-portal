@@ -4,6 +4,18 @@ A full-stack web application that allows users to check service availability, se
 
 ---
 
+## 🔗 Live Demo
+
+🌐 Frontend (Vercel):  
+https://service-selection-portal.vercel.app/
+
+🛠 Backend API (Render):  
+https://service-selection-portal.onrender.com/api/leads
+
+> ⚠️ Note: Backend may take 10–20 seconds to respond initially due to cold start (Render free tier).
+
+---
+
 ## 🌐 Live Features
 
 * 📍 **Pincode-based service detection**
@@ -76,7 +88,7 @@ Service_Selection_Portal/
 ### 1️⃣ Clone the repo
 
 ```
-git clone <https://github.com/gurmitasahare369/service-selection-portal>
+git clone https://github.com/gurmitasahare369/service-selection-portal
 cd Service_Selection_Portal
 ```
 
@@ -133,6 +145,18 @@ POST /api/leads
   "total": 2181.82
 }
 ```
+
+---
+
+## 🧪 How to Test
+
+1. Enter any 6-digit pincode  
+2. If it starts with `370` → Fiber plans  
+3. Otherwise → Wireless plans  
+4. Select a plan  
+5. Choose add-ons  
+6. Fill the form and submit  
+7. Data gets stored in MongoDB  
 
 ---
 
