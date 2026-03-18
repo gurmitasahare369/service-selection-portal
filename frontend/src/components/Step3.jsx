@@ -32,7 +32,7 @@ const Step3 = ({ selectedPlan, addons, setStep}) => {
         if (addons.dish) selectedAddons.push("DishTV");
 
          try {
-            const response = await fetch("http://localhost:5000/api/leads", {
+            const response = await fetch("https://service-selection-portal.onrender.com/api/leads", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
